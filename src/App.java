@@ -4,13 +4,16 @@ import java.text.SimpleDateFormat;
 
 public class App {
 
+  //INSTANCIE MANUALMENTE (HARD COD) OS OBJETIVOS MOSTRADO E MOSTRE-OS
+  //NA TELA DO TERMINAL,CONFORME EXEMPLO.  (EXEMPLO NO MATERIAL DE APOIO DO CURSO)
+
   public static void main(String[] args) throws Exception {
     SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
 
     Comment c1 = new Comment("Boa Viagem!");
     Comment c2 = new Comment("Uau, Isso é Incrível!");
-
     System.out.println("===============================");
+
     Post p1 = new Post(
       sdf.parse("21/06/2018 13:05:44"),
       "Viajar Para a Nova Zelândia",
